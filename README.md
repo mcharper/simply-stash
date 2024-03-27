@@ -28,6 +28,42 @@ That's what the app is technically for, though it's more of an exercise in learn
 
 A subgoal was to get better at Figma so I've been using that to design the app.
 
+### UX "Storyframe"
+
+This article by Fabricio Teixeira suggests that before wireframing, we should create a "storyframe".
+
+[Storyframes before wireframes](https://uxdesign.cc/storyframes-before-wireframes-starting-designs-in-the-text-editor-ec69db78e6e4)
+
+Here's mine:
+
+- I’ll be able to manage this information from my mobile phone
+
+- When I pack stuff away in a box:
+
+  - the app will tell me the next box ID or allow me to make one up
+  - I will snapshot the contents of the box before I seal it up
+  - I will write or say out loud a description of the contents
+  - I’ll select a category
+  - I’ll select an owner
+  - then I’ll seal up and label the box
+
+- When I go to store the box:
+
+  - I’ll put it somewhere
+  - I'll write or scan the barcode for the location code
+
+- When I've finished:
+  - the app will save the data with the box ID associated with the contents of the box and photos, along with the location code
+
+- When I want to find something again:
+
+	- I’ll search by keyword or part of the description
+
+- When I want to browse what’s in storage:
+	
+	- I’ll browse by category
+  - or I'll browse by owner
+
 ### Wireframes
 
 ![Wireframes](docs/images/wireframes.png)
