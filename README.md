@@ -10,7 +10,7 @@ Having said I'm hoping the app I'm creating will come in useful.
 
 ## What the app is for
 
-<img align="left" style="border:2px solid black; border-radius: 15px; margin: 0 20 20 0" src="docs/images/label-screen.png">
+<img align="left" style="border:2px solid black; border-radius: 15px; margin: 0 20 20 0" src="docs/images/labelscreen.png">
 
 The app is to help me find stuff I've put into storage.
 
@@ -18,9 +18,9 @@ In my home, stuff is always getting packed away to go into storage, and now and 
 
 I pack things into cardboard boxes so they don’t get damaged and put them out of the way. Finding the box again is the problem. So I give every box a unique Box ID, and I write it on the outside of the box.
 
-I also give each storage location also has a unique Location ID.
+I also give each storage location a unique Location ID.
 
-Keeping a record is just a matter of recording the Box ID, what went into it, and its current Location ID.
+I record the Box ID, its contents, and its current Location ID.
  
 ##  
 
