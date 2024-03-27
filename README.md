@@ -24,6 +24,8 @@ I record the Box ID, its contents, and its current Location ID.
  
 At the moment I use a spreadsheet for this purpose. That's OK but it would be nice to have a photo of the box contents and to be able to use my mobile phone to record the info, instead of trying to remember it on the way back to updating the spreadsheet.
 
+<br clear="left"/>
+
 ## Design
 
 A subgoal was to get better at Figma so I've been using that to design the app.
