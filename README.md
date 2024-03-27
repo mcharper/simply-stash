@@ -32,6 +32,10 @@ A subgoal was to get better at Figma so I've been using that to design the app.
 
 ![Wireframes](docs/images/wireframes.png)
 
+### Colour Scheme
+ 
+![Colour Scheme](docs/images/colour-schemes.png)
+
 ### Mockups
  
 ![Mockups](docs/images/mockups.png)
