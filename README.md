@@ -8,7 +8,7 @@ Since I'm happy with React and I've written a PWA using it, it makes sense to tr
 
 ## What the app is for
 
-<img align="left" style="padding: 0 20 20 0" src="docs/images/label-screen.png">
+<img align="left" style="border:2px solid black; border-radius: 15px; margin: 0 20 20 0" src="docs/images/label-screen.png">
 
 In my household stuff is always getting packed away to go into storage somewhere, and now and then we need to go and find those things again. No-one else seems equipped or willing to do this so I do it.
 
