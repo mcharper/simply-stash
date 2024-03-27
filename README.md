@@ -10,7 +10,7 @@ Having said I'm hoping the app I'm creating will come in useful.
 
 ## What the app is for
 
-<img align="left" style="border:2px solid black; border-radius: 15px; margin: 0 20 20 0" src="docs/images/labelscreen.png">
+<img align="left" style="border:2px solid black; border-radius: 15px; margin: 0 20 20 0" src="docs/images/label-screen.png">
 
 The app is to help me find stuff I've put into storage.
 
