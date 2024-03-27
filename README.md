@@ -10,7 +10,7 @@ Having said I'm hoping the app I'm creating will come in useful.
 
 ## What the app is for
 
-<img align="left" style="border:2px solid black; border-radius: 15px; margin: 0 20 20 0" src="docs/images/label-screen.png">
+<img align="left" style="margin: 0 20 20 0" src="docs/images/label-screen.png">
 
 The app is to help me find stuff I've put into storage.
 
@@ -22,8 +22,6 @@ I also give each storage location a unique Location ID.
 
 I record the Box ID, its contents, and its current Location ID.
  
-##  
-
 At the moment I use a spreadsheet for this purpose. That's OK but it would be nice to have a photo of the box contents and to be able to use my mobile phone to record the info, instead of trying to remember it on the way back to updating the spreadsheet.
 
 ## Design
