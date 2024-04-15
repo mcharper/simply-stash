@@ -2,6 +2,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Ionicons from '@expo/vector-icons/Ionicons';
+import { colourScheme } from './styles/styles.js';
 
 import { Home } from './components/Home';
 import { Pack } from './components/Pack';
@@ -22,19 +23,20 @@ export default function App() {
             let iconName;
 
             if (route.name === 'Home') {
-              iconName = focused ? 'home' : 'home-outline';
+              iconName = 'home';
             } else if (route.name === 'Store') {
-              iconName = focused ? 'arrow-up-circle' : 'arrow-up-circle-outline';
-            } else if (route.name === 'List') {
-              iconName = focused ? 'list' : 'list-outline';
+              iconName = 'cube';
+            } else if (route.name === 'Find') {
+              iconName = 'search';
+            } else if (route.name === 'Browse') {
+              iconName = 'list';
             }
-
 
             // You can return any component that you like here!
             return <Ionicons name={iconName} size={size} color={color} />;
           },
-          tabBarActiveTintColor: 'purple',
-          tabBarInactiveTintColor: 'gray',
+          tabBarActiveTintColor: colourScheme.accent1,
+          tabBarInactiveTintColor: colourScheme.secondary1
         })}
       >
         <Tab.Screen name="Home" component={Home} />
@@ -45,6 +47,7 @@ export default function App() {
               <StoreStack.Screen
                 name="Pack"
                 component={Pack}
+                options={{ title: 'My home' }}
               />
               <StoreStack.Screen
                 name="Label"
@@ -58,30 +61,22 @@ export default function App() {
           )}
         </Tab.Screen>
 
-        {/* <Tab.Screen name="Retrieve">
+        <Tab.Screen name="Find">
           {() => (
             <StoreStack.Navigator>
               <StoreStack.Screen
-                name="Locate"
-                component={Locate}
-              />
-              <StoreStack.Screen
-                name="Retrieve"
-                component={Retrieve}
-              />
-              <StoreStack.Screen
-                name="Transfer"
-                component={Transfer}
+                name="Find"
+                component={Inventory}
               />
             </StoreStack.Navigator>
           )}
-        </Tab.Screen> */}
+        </Tab.Screen>
 
-        <Tab.Screen name="List">
+        <Tab.Screen name="Browse">
           {() => (
             <StoreStack.Navigator>
               <StoreStack.Screen
-                name="Inventory"
+                name="Browse"
                 component={Inventory}
               />
             </StoreStack.Navigator>
@@ -89,7 +84,6 @@ export default function App() {
         </Tab.Screen>
       </Tab.Navigator>
     </NavigationContainer>
-
   );
 }
 
